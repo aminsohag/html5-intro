@@ -1,0 +1,21 @@
+nav > ul {
+    display: flex;
+    justify-content: center;
+}
+li{
+    text-decoration: none;
+    list-style: none;  
+    margin: 25px;
+}
+
+/* nested menu style */
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+li:hover > .dropdown{
+    display: block;
+}
